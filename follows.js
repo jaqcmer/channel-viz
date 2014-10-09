@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= 'LeQvS1unyErcs9Ye27SqygYnMF1OKIWRnzDWoerGCwsgzpM1', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [1204739177], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [46794181], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'INTELITE', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
@@ -391,7 +391,7 @@
 
 	if(applicationName != '') {
 		$('h1').html(applicationName).css('color', 'white');
-		document.title = applicationName + ' - Powered by Xively';
+		document.title = applicationName + ' - Powered  ';
 	}
 
 	if(dataColor == '') {
